@@ -424,30 +424,48 @@ def sc_international(seed):
 
 
 def sc_romance(seed):
-    c = C((190, 90)); r = R(seed)
-    c.glow(700, 800, 140, .7); c.glow(700, 800, 400, .25)
-    c.ridge(1030, 20, seed, 60, .5)
-    # ferris wheel
-    cx, cy, rad = 560, 680, 300
-    c.d.ellipse([(cx - rad) * S, (cy - rad) * S, (cx + rad) * S, (cy + rad) * S], outline=30, width=10 * S)
-    c.d.ellipse([(cx - rad + 30) * S, (cy - rad + 30) * S, (cx + rad - 30) * S, (cy + rad - 30) * S], outline=30, width=4 * S)
-    for k in range(16):
-        a = k / 16 * 2 * math.pi
-        x, y = cx + rad * math.cos(a), cy + rad * math.sin(a)
-        c.line([(cx, cy), (x, y)], 30, 3)
-        c.d.rounded_rectangle([(x - 18) * S, (y + 4) * S, (x + 18) * S, (y + 40) * S], radius=8 * S, fill=30)
-        c.line([(x, y), (x, y + 6)], 30, 3)
-        c.glow(x, y, 7, .5)
-    c.line([(cx, cy), (cx - 160, 1040)], 30, 12); c.line([(cx, cy), (cx + 160, 1040)], 30, 12)
-    c.ell([cx - 22, cy - 22, cx + 22, cy + 22], 30)
-    # string of lights
-    pts = [(x, 1100 + 40 * math.sin(x / 90)) for x in np.arange(-20, W + 20, 8)]
-    c.line(pts, 30, 2)
-    for x, y in pts[::5]: c.ell([x - 5, y - 2, x + 5, y + 10], 250); c.glow(x, y + 4, 12, .35)
-    c.rect([0, 1050, W, H], 25)
-    c.d.polygon(c.P(pts + [(W + 20, 1050), (-20, 1050)]), fill=25)
-    for x, y in pts[::5]: c.ell([x - 5, y - 2, x + 5, y + 10], 250); c.glow(x, y + 4, 12, .35)
-    return c.finish()
+    c = C((200, 110)); r = R(seed)
+    c.glow(500, 780, 300, .25)
+    c.ell([340, 620, 660, 940], 235)
+    c.ridge(900, 50, seed, 150, .55); c.ridge(975, 35, seed + 1, 105, .5)
+    c.rect([0, 1075, W, H], 40)
+    c.rect([0, 1072, W, 1080], 70)
+    D = 18
+    def limb(pts, w):
+        c.line(pts, D, w)
+        for x, y in pts: c.ell([x - w / 2, y - w / 2, x + w / 2, y + w / 2], D)
+    # wheels
+    for wx in (300, 700):
+        c.ell([wx - 78, 1000 - 78, wx + 78, 1000 + 78], D)
+        c.d.ellipse([(wx - 60) * S, 940 * S, (wx + 60) * S, 1060 * S], outline=55, width=4 * S)
+        c.ell([wx - 12, 988, wx + 12, 1012], 60)
+    # frame, fender, engine, tank, seat, fork, bars, light
+    c.poly([(230, 960), (260, 915), (330, 900), (380, 905), (330, 935), (260, 950)], D)
+    c.poly([(300, 1000), (390, 930), (560, 930), (600, 1000), (520, 1030), (380, 1020)], D)
+    c.poly([(450, 900), (500, 870), (590, 865), (620, 885), (600, 930), (470, 935)], D)
+    c.poly([(330, 900), (460, 895), (470, 925), (350, 930)], D)
+    limb([(700, 1000), (640, 860)], 16)
+    limb([(640, 860), (615, 835)], 10)
+    c.ell([645, 865, 685, 905], D); c.glow(675, 885, 10, .6)
+    limb([(330, 1015), (230, 1020)], 12)  # exhaust
+    # rider
+    limb([(500, 895), (575, 950), (560, 1005)], 34)          # leg
+    c.poly([(462, 912), (548, 905), (628, 805), (612, 778), (585, 765), (560, 772)], D)  # torso, leaning forward
+    c.ell([584, 722, 640, 778], D)                            # helmet
+    limb([(605, 795), (642, 852)], 24)            # arm to bars
+    # passenger
+    limb([(405, 895), (470, 945), (455, 1000)], 30)
+    c.poly([(378, 912), (455, 905), (532, 808), (518, 785), (492, 775), (468, 785)], D)
+    c.ell([476, 742, 526, 792], D)                            # head
+    hair = [(482, 752), (440, 740), (390, 755), (330, 745), (360, 765), (300, 780), (370, 785), (420, 790), (480, 780)]
+    c.poly(hair, D)
+    limb([(510, 805), (562, 850), (590, 842)], 22)            # arm around rider
+    # motion streaks + road dashes
+    for _ in range(14):
+        y = r.uniform(880, 1060); x = r.uniform(0, 200); l = r.uniform(60, 180)
+        c.line([(x, y), (x + l, y)], 200, 2)
+    for x in np.arange(-40, W, 150): c.rect([x, 1180, x + 80, 1188], 120)
+    return fog(c.finish(), seed, .45, .2)
 
 
 def sc_scifi(seed):
