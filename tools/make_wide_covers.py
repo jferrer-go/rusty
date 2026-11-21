@@ -129,13 +129,17 @@ def make(path, label, lines, motif, cols, seed, out):
     img = Image.composite(tint, img, mask.point(lambda v: int(v * 0.85)))
 
     d = ImageDraw.Draw(img)
-    lh = 160
+    size = 170
+    while max(d.textlength(l, font=ImageFont.truetype(FONT + 'InterDisplay-Black.otf', size)) for l in lines) > 1000:
+        size -= 6
+    title = ImageFont.truetype(FONT + 'InterDisplay-Black.otf', size)
+    lh = int(size * 0.94)
     y0 = H - 120 - lh * len(lines)
     d.rounded_rectangle([110, y0 - 92, 110 + d.textlength(label, font=LABEL) + 48, y0 - 30], radius=31,
                         fill=(255, 255, 255))
     d.text((134, y0 - 88), label, font=LABEL, fill=(15, 15, 18))
     for i, l in enumerate(lines):
-        d.text((104, y0 + i * lh), l, font=TITLE, fill=(255, 255, 255))
+        d.text((104, y0 + i * lh), l, font=title, fill=(255, 255, 255))
     dst = os.path.join(out, path + '-wide.jpg')
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     img.save(dst, quality=90)
