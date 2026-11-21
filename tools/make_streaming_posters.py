@@ -19,3 +19,14 @@ SPECS = [
 if __name__ == '__main__':
     for i, (slug, lines, cols) in enumerate(SPECS):
         print(v.make_v('streaming-v2/' + slug, 'STREAMING', lines, lib.m_streaming, cols, 300 + i, sys.argv[1]))
+
+
+def m_stack(d):  # fanned stack of poster frames
+    import math
+    cx, cy = 1460, 600
+    for k, ang in enumerate((-18, -6, 6, 18)):
+        a = math.radians(ang); w, h = 220, 330
+        pts = []
+        for dx, dy in ((-w / 2, -h / 2), (w / 2, -h / 2), (w / 2, h / 2), (-w / 2, h / 2)):
+            pts.append((cx + dx * math.cos(a) - dy * math.sin(a) + ang * 9, cy + dx * math.sin(a) + dy * math.cos(a) + abs(ang) * 3))
+        d.polygon(pts, fill=150 + k * 30, outline=255)
