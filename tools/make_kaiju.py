@@ -14,7 +14,7 @@ def scene(seed):
     
     # searchlights converging high above the skyline (on something unseen)
     beams = Image.new('L', (W * S, H * S), 0); bd = ImageDraw.Draw(beams)
-    tgt = (W * .62, H * .12)
+    tgt = (W * .6, H * .28)
     for bx in (.12, .35, .8, .95):
         x0 = W * bx
         bd.polygon([(x0 * S, gy * S), ((x0 + 12) * S, gy * S), ((tgt[0] + 60) * S, tgt[1] * S), ((tgt[0] - 60) * S, tgt[1] * S)], fill=55)
@@ -33,6 +33,31 @@ def scene(seed):
     sm = sm.filter(ImageFilter.GaussianBlur(14 * S))
     arr = np.array(c.im, float) + np.array(fx, float) - np.array(sm, float)
     c.im = Image.fromarray(np.clip(arr, 0, 255).astype('uint8')); c.d = ImageDraw.Draw(c.im)
+    # original creature: a tentacled sea beast rising behind the skyline (lighter than the skyline so it reads)
+    bl = Image.new('L', (W * S, H * S), 0)
+    ImageDraw.Draw(bl).ellipse([(W * .6 - W * .35) * S, (H * .02) * S, (W * .6 + W * .35) * S, (gy + H * .05) * S], fill=120)
+    bl = bl.filter(ImageFilter.GaussianBlur(60 * S))
+    c.im = Image.fromarray(np.clip(np.array(c.im, float) + np.array(bl, float), 0, 255).astype('uint8')); c.d = ImageDraw.Draw(c.im)
+    V = 16
+    cx, top = W * .6, H * .2
+    hw = min(W, H * 1.2) * .13
+    c.poly([(cx - hw * 1.3, gy), (cx - hw, top + hw * 1.4), (cx + hw, top + hw * 1.4), (cx + hw * 1.3, gy)], V)
+    c.ell([cx - hw, top, cx + hw, top + hw * 2.2], V)
+    for side in (-1, 1):
+        for k, (ang0, ln, w) in enumerate(((.15 if side < 0 else .3, 2.1, 30), (.6, 1.4 if side < 0 else 1.7, 24), (1.0, 1.1, 18))):
+            curl = [(.03, .003), (.05, .005), (.08, .002)][k] if side < 0 else [(.05, .002), (.02, .006), (.06, .004)][k]
+            x, y = cx + side * hw * .9, top + hw * (1.6 + k * .5)
+            a = ang0; pts = [(x, y)]
+            for i in range(30):
+                step = hw * ln * .1
+                x += side * math.cos(a) * step; y -= math.sin(a) * step; a += curl[0] + i * curl[1]
+                pts.append((x, y))
+            for i in range(len(pts) - 1):
+                c.line([pts[i], pts[i + 1]], V, max(4, w * (1 - i / 32)))
+                c.ell([pts[i][0] - w * (1 - i / 32) / 2, pts[i][1] - w * (1 - i / 32) / 2, pts[i][0] + w * (1 - i / 32) / 2, pts[i][1] + w * (1 - i / 32) / 2], V)
+    for ex, ey in ((-.38, .85), (.38, .85), (0, .6)):
+        x, y = cx + ex * hw, top + ey * hw
+        c.ell([x - 13, y - 8, x + 13, y + 8], 250); c.glow(x, y, 24, .45)
     # skyline with a few broken towers
     x = -20
     while x < W:
@@ -56,12 +81,12 @@ def scene(seed):
 
 def build(W, H, title, out):
     g.W, g.H = W, H
-    img = g.tone(scene(7), (235, 75, 35), 9)
+    img = g.tone(scene(7), (110, 70, 235), 9)
     if title:
         img = g.title(img, title)
     img.save(out, quality=90); return out
 
 
 if __name__ == '__main__':
-    print(build(1000, 1500, 'Kaiju', 'covers/collections/kaiju-poster.jpg'))
-    print(build(1920, 1080, None, 'covers/collections/kaiju-wide.jpg'))
+    print(build(1000, 1500, 'Kaiju', 'covers/collections/kaiju-beast-poster.jpg'))
+    print(build(1920, 1080, None, 'covers/collections/kaiju-beast-wide.jpg'))
