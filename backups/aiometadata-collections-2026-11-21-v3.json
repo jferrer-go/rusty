@@ -1,0 +1,2740 @@
+{
+  "exportType": "aiometadataCollections",
+  "exportVersion": 1,
+  "entries": [
+    {
+      "kind": "collection",
+      "id": "f78f90b7-a0fa-4ecd-8094-b9b7cf5f512f",
+      "title": "Films",
+      "hideTitle": false,
+      "backdropImageUrl": "",
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "TABBED_GRID",
+      "showAllTab": true,
+      "folders": [
+        {
+          "id": "2053ed34-eae0-437a-8b33-f6ce99344617",
+          "title": "Popular",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/films/popular-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "tmdb.top",
+              "type": "movie",
+              "name": "TMDB Popular",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "tmdb.top",
+                  "type": "movie",
+                  "name": "TMDB Popular",
+                  "source": "tmdb",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "f6f49d14-2a8c-4311-b462-3a5738542318",
+          "title": "Trending",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/films/trending-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "tmdb.trending",
+              "type": "movie",
+              "name": "TMDB Trending",
+              "genre": "Week",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "tmdb.trending",
+                  "type": "movie",
+                  "name": "TMDB Trending",
+                  "source": "tmdb",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "67fe3746-8398-471f-9ea2-b691c330efb7",
+          "title": "Top Rated",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/films/top-rated-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "tmdb.top_rated",
+              "type": "movie",
+              "name": "TMDB Top Rated",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "tmdb.top_rated",
+                  "type": "movie",
+                  "name": "TMDB Top Rated",
+                  "source": "tmdb",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "collection",
+      "id": "be98358c-9a9d-404c-8d92-2a4fb18a96e8",
+      "title": "Series",
+      "hideTitle": false,
+      "backdropImageUrl": "",
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "TABBED_GRID",
+      "showAllTab": true,
+      "folders": [
+        {
+          "id": "aceec77e-7270-438c-a96b-e229a289ada8",
+          "title": "Popular",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/series/popular-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "tmdb.top",
+              "type": "series",
+              "name": "TMDB Popular",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "tmdb.top",
+                  "type": "series",
+                  "name": "TMDB Popular",
+                  "source": "tmdb",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "c732698c-108c-4ab2-9e6a-66d534d28038",
+          "title": "Trending",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/series/trending-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "tmdb.trending",
+              "type": "series",
+              "name": "TMDB Trending",
+              "genre": "Week",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "tmdb.trending",
+                  "type": "series",
+                  "name": "TMDB Trending",
+                  "source": "tmdb",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "4e0cbab9-bdbe-44b2-abb5-a6a726c1743c",
+          "title": "Top Rated",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/series/top-rated-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "tmdb.top_rated",
+              "type": "series",
+              "name": "TMDB Top Rated",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "tmdb.top_rated",
+                  "type": "series",
+                  "name": "TMDB Top Rated",
+                  "source": "tmdb",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "8efce004-2707-4bcb-aa6b-ff97a9e52f16",
+          "title": "Airing Today",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/series/airing-today-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "tmdb.airing_today",
+              "type": "series",
+              "name": "TMDB Airing Today",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "tmdb.airing_today",
+                  "type": "series",
+                  "name": "TMDB Airing Today",
+                  "source": "tmdb",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "collection",
+      "id": "B14678D6-D2D1-4057-8A9D-50CBFED2BA96",
+      "title": "Streaming",
+      "hideTitle": true,
+      "backdropImageUrl": "",
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "TABBED_GRID",
+      "showAllTab": true,
+      "folders": [
+        {
+          "id": "D49CFA72-5749-4FC0-8606-2AAF8E1F7281",
+          "title": "Apple TV+",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/appletv-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.86626",
+              "type": "movie",
+              "name": "Popular Apple TV+ Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.86626",
+                  "type": "movie",
+                  "name": "Popular Apple TV+ Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 100,
+                    "url": "https://mdblist.com/lists/snoak/apple-tv-top-10-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.86625",
+              "type": "series",
+              "name": "Popular Apple TV+ Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.86625",
+                  "type": "series",
+                  "name": "Popular Apple TV+ Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/apple-tv-top-10-tv-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "DDE8008D-165B-4267-A65A-08A16EE22570",
+          "title": "Crunchyroll",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/crunchyroll-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.98862",
+              "type": "movie",
+              "name": "Crunchyroll - Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.98862",
+                  "type": "movie",
+                  "name": "Crunchyroll - Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 342,
+                    "url": "https://mdblist.com/lists/frostypolicia/crunchyroll-movies",
+                    "mediatype": "movie",
+                    "author": "frostypolicia"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.99202",
+              "type": "series",
+              "name": "Crunchyroll - Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.99202",
+                  "type": "series",
+                  "name": "Crunchyroll - Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 1919,
+                    "url": "https://mdblist.com/lists/frostypolicia/crunchyroll-shows",
+                    "mediatype": "show",
+                    "author": "frostypolicia"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "44FB45E4-F835-46D8-8C37-553A545C164A",
+          "title": "Discovery+",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/discoveryplus-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.16592",
+              "type": "series",
+              "name": "Discovery+ Original TV Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.16592",
+                  "type": "series",
+                  "name": "Discovery+ Original TV Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 170,
+                    "url": "https://mdblist.com/lists/hdlists/discovery-original-tv-shows",
+                    "mediatype": "show",
+                    "author": "hdlists"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "18837D4E-385C-4335-9538-B0ACB645D8BE",
+          "title": "Disney+",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/disney-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.86945",
+              "type": "movie",
+              "name": "Popular Disney+ Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.86945",
+                  "type": "movie",
+                  "name": "Popular Disney+ Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 147,
+                    "url": "https://mdblist.com/lists/snoak/disney-plus-top-10-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.86946",
+              "type": "series",
+              "name": "Popular Disney+ Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.86946",
+                  "type": "series",
+                  "name": "Popular Disney+ Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/disney-plus-top-10-tv-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "78E77703-40C8-41D0-9834-E802B8520D14",
+          "title": "HBO Max",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/hbomax2-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.89392",
+              "type": "movie",
+              "name": "Popular HBO Max Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.89392",
+                  "type": "movie",
+                  "name": "Popular HBO Max Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/hbo-top-10-movies-2",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.89310",
+              "type": "series",
+              "name": "Popular HBO Max Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.89310",
+                  "type": "series",
+                  "name": "Popular HBO Max Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/hbo-top-10-tv-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "C5CB7FA4-767B-494F-A60B-A0E94246D45A",
+          "title": "Hulu",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/hulu-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.3096",
+              "type": "movie",
+              "name": "Hulu Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.3096",
+                  "type": "movie",
+                  "name": "Hulu Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/garycrawfordgc/hulu-movies",
+                    "mediatype": "movie",
+                    "author": "garycrawfordgc"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.3089",
+              "type": "series",
+              "name": "Hulu Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.3089",
+                  "type": "series",
+                  "name": "Hulu Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 300,
+                    "url": "https://mdblist.com/lists/garycrawfordgc/hulu-shows",
+                    "mediatype": "show",
+                    "author": "garycrawfordgc"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "91FEAD5F-AB99-41D4-8631-88352B39432B",
+          "title": "K-Drama+",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/kdramaplus-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.130778",
+              "type": "movie",
+              "name": "Popular KDrama Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.130778",
+                  "type": "movie",
+                  "name": "Popular KDrama Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 562,
+                    "url": "https://mdblist.com/lists/snoak/popular-kdrama-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.130775",
+              "type": "series",
+              "name": "Popular KDrama Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.130775",
+                  "type": "series",
+                  "name": "Popular KDrama Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 1413,
+                    "url": "https://mdblist.com/lists/snoak/popular-kdrama-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "7FB7F98A-866F-47A5-8E7E-BA8641BA4A88",
+          "title": "Netflix",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/netflixdark-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.86628",
+              "type": "movie",
+              "name": "Popular Netflix Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.86628",
+                  "type": "movie",
+                  "name": "Popular Netflix Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/netflix-top-10-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.86620",
+              "type": "series",
+              "name": "Popular Netflix Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.86620",
+                  "type": "series",
+                  "name": "Popular Netflix Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/netflix-top-10-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "CCAA6C46-3A7C-4372-9FDD-6C32F9F4532B",
+          "title": "Paramount+",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/paramount-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.89366",
+              "type": "movie",
+              "name": "Popular Paramount+ Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.89366",
+                  "type": "movie",
+                  "name": "Popular Paramount+ Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/paramount-plus-top-10-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.89374",
+              "type": "series",
+              "name": "Popular Paramount+ Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.89374",
+                  "type": "series",
+                  "name": "Popular Paramount+ Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/paramount-plus-top-10-tv-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "314EE90D-308A-4191-9189-92EB0C157E46",
+          "title": "Peacock",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/peacock-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.83487",
+              "type": "movie",
+              "name": "Peacock Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.83487",
+                  "type": "movie",
+                  "name": "Peacock Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 79,
+                    "url": "https://mdblist.com/lists/tvgeniekodi/peacock-movies",
+                    "mediatype": "movie",
+                    "author": "tvgeniekodi"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.83484",
+              "type": "series",
+              "name": "Peacock Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.83484",
+                  "type": "series",
+                  "name": "Peacock Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 108,
+                    "url": "https://mdblist.com/lists/tvgeniekodi/peacock-tv-shows",
+                    "mediatype": "show",
+                    "author": "tvgeniekodi"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "28F5837B-DCC1-418B-80B9-77380579833F",
+          "title": "Prime Video",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/primevideo-wide-color.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.86623",
+              "type": "movie",
+              "name": "Popular Amazon Prime Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.86623",
+                  "type": "movie",
+                  "name": "Popular Amazon Prime Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/amazon-prime-top-10-shows",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.86624",
+              "type": "series",
+              "name": "Popular Amazon Prime Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.86624",
+                  "type": "series",
+                  "name": "Popular Amazon Prime Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/amazon-prime-top-10-tv-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "collection",
+      "id": "0060F77A-A8A5-4E12-B5CB-6FA69C73B28B",
+      "title": "Genres",
+      "hideTitle": false,
+      "backdropImageUrl": "",
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "TABBED_GRID",
+      "showAllTab": true,
+      "folders": [
+        {
+          "id": "8BF04294-5E17-4A3F-AA76-78AEDCCB3F08",
+          "title": "Action",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/action-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91211",
+              "type": "movie",
+              "name": "Popular Action Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91211",
+                  "type": "movie",
+                  "name": "Popular Action Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/action-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.91213",
+              "type": "series",
+              "name": "Popular Action Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91213",
+                  "type": "series",
+                  "name": "Popular Action Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/action-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5909D07A-3E06-4421-9356-0DCEBCB6D114",
+          "title": "Adventure",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/adventure-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.5983",
+              "type": "movie",
+              "name": "Adventures",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.5983",
+                  "type": "movie",
+                  "name": "Adventures",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 99,
+                    "url": "https://mdblist.com/lists/rizreflects/adventure-movies",
+                    "mediatype": "movie",
+                    "author": "rizreflects"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "2867A8F9-3DAD-4528-B2EB-73619FFB1EDF",
+          "title": "Animation",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/animation-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.116037",
+              "type": "movie",
+              "name": "Popular Animated Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.116037",
+                  "type": "movie",
+                  "name": "Popular Animated Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/popular-animated-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.116038",
+              "type": "series",
+              "name": "Popular Animated Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.116038",
+                  "type": "series",
+                  "name": "Popular Animated Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/popular-animated-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5FA73C08-A3E9-4FF0-839D-990A14D04FDF",
+          "title": "Anime",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/anime-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.121922",
+              "type": "movie",
+              "name": "Popular Animation/Anime Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.121922",
+                  "type": "movie",
+                  "name": "Popular Animation/Anime Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/animationanime-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.121921",
+              "type": "series",
+              "name": "Popular Animation/Anime Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.121921",
+                  "type": "series",
+                  "name": "Popular Animation/Anime Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/animationanime-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "2CE9D9A7-A3A6-4E8C-9245-F69DEA8A496E",
+          "title": "Classics",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/classics-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.6026",
+              "type": "movie",
+              "name": "Cult Classics",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.6026",
+                  "type": "movie",
+                  "name": "Cult Classics",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 57,
+                    "url": "https://mdblist.com/lists/rizreflects/cult-classics",
+                    "mediatype": "movie",
+                    "author": "rizreflects"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "9CC9FF96-9A5B-4DF8-A406-56FF1F2D5C08",
+          "title": "Comedy",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/comedy-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91223",
+              "type": "movie",
+              "name": "Popular Comedy Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91223",
+                  "type": "movie",
+                  "name": "Popular Comedy Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/comedy-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.91224",
+              "type": "series",
+              "name": "Popular Comedy Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91224",
+                  "type": "series",
+                  "name": "Popular Comedy Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/comedy-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "F73A7B9D-1AAB-4B91-BA2A-676547D86DAC",
+          "title": "Crime",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/crime-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.3108",
+              "type": "movie",
+              "name": "Crime",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.3108",
+                  "type": "movie",
+                  "name": "Crime",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 400,
+                    "url": "https://mdblist.com/lists/garycrawfordgc/crime",
+                    "mediatype": "movie",
+                    "author": "garycrawfordgc"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.3126",
+              "type": "series",
+              "name": "Crime Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.3126",
+                  "type": "series",
+                  "name": "Crime Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/garycrawfordgc/crime-shows",
+                    "mediatype": "show",
+                    "author": "garycrawfordgc"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "33A51246-37CB-4A08-887B-EDBD6D08F95B",
+          "title": "Documentary",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/documentary-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.128051",
+              "type": "movie",
+              "name": "Popular Documentary Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.128051",
+                  "type": "movie",
+                  "name": "Popular Documentary Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/popular-documentary-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.128052",
+              "type": "series",
+              "name": "Popular Documentary Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.128052",
+                  "type": "series",
+                  "name": "Popular Documentary Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/popular-documentary-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "07948710-CE33-41DA-B504-1409F72EFA60",
+          "title": "Drama",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/drama-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91296",
+              "type": "movie",
+              "name": "Popular Drama Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91296",
+                  "type": "movie",
+                  "name": "Popular Drama Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/drama-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.91297",
+              "type": "series",
+              "name": "Popular Drama Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91297",
+                  "type": "series",
+                  "name": "Popular Drama Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/drama-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "011A7456-38C4-4708-8FCB-6B1D695D8907",
+          "title": "Fantasy",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/fantasy-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.6006",
+              "type": "movie",
+              "name": "Fantasy Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.6006",
+                  "type": "movie",
+                  "name": "Fantasy Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 99,
+                    "url": "https://mdblist.com/lists/rizreflects/fantasy-movies",
+                    "mediatype": "movie",
+                    "author": "rizreflects"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "414C3A8A-0291-4149-83F9-FD75A2493B7F",
+          "title": "Horror",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/horror-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91215",
+              "type": "movie",
+              "name": "Popular Horror Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91215",
+                  "type": "movie",
+                  "name": "Popular Horror Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/horror-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.91217",
+              "type": "series",
+              "name": "Popular Horror Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91217",
+                  "type": "series",
+                  "name": "Popular Horror Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 403,
+                    "url": "https://mdblist.com/lists/snoak/horror-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "BD093160-F55F-41FE-BDA5-E61A5B009C9D",
+          "title": "Independent",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/independent-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.167815",
+              "type": "movie",
+              "name": "Indie Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.167815",
+                  "type": "movie",
+                  "name": "Indie Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 1371,
+                    "url": "https://mdblist.com/lists/hboinay/indie-movies",
+                    "mediatype": "movie",
+                    "author": "hboinay"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "C8BF20D2-3E5C-4D17-BD6A-88D9940D150D",
+          "title": "International",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/international-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.6033",
+              "type": "movie",
+              "name": "Critically Acclaimed Foreign Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.6033",
+                  "type": "movie",
+                  "name": "Critically Acclaimed Foreign Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 99,
+                    "url": "https://mdblist.com/lists/rizreflects/critically-acclaimed-foreign-movies",
+                    "mediatype": "movie",
+                    "author": "rizreflects"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "AD7593AC-440B-44CD-999F-E9CCA575138A",
+          "title": "Romance",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/romance-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.128262",
+              "type": "movie",
+              "name": "Popular Romance Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.128262",
+                  "type": "movie",
+                  "name": "Popular Romance Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/popular-romance-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.128265",
+              "type": "series",
+              "name": "Popular Romance Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.128265",
+                  "type": "series",
+                  "name": "Popular Romance Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/snoak/popular-romance-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "9C3C2050-5874-4695-8FF1-6CB5159A08C3",
+          "title": "Sci-fi",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/sci-fi-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91220",
+              "type": "movie",
+              "name": "Popular Sci-Fi Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91220",
+                  "type": "movie",
+                  "name": "Popular Sci-Fi Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/science-fiction-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.91221",
+              "type": "series",
+              "name": "Popular Sci-Fi Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91221",
+                  "type": "series",
+                  "name": "Popular Sci-Fi Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/science-fiction-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "3E1D726B-2AB5-409A-8AAE-43F59C4F8DB3",
+          "title": "Thriller",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/thriller-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91893",
+              "type": "movie",
+              "name": "Popular Thriller Movies",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91893",
+                  "type": "movie",
+                  "name": "Popular Thriller Movies",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/thriller-movies",
+                    "mediatype": "movie",
+                    "author": "snoak"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "mdblist.91894",
+              "type": "series",
+              "name": "Popular Thriller Shows",
+              "genre": "None",
+              "baseType": "series",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91894",
+                  "type": "series",
+                  "name": "Popular Thriller Shows",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 500,
+                    "url": "https://mdblist.com/lists/snoak/thriller-shows",
+                    "mediatype": "show",
+                    "author": "snoak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "CFF8AB44-BB09-4543-8119-7B794477CA56",
+          "title": "Westerns",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/westerns-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.84520",
+              "type": "movie",
+              "name": "Top Westerns",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.84520",
+                  "type": "movie",
+                  "name": "Top Westerns",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 200,
+                    "url": "https://mdblist.com/lists/tvgeniekodi/top-westerns",
+                    "mediatype": "movie",
+                    "author": "tvgeniekodi"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "C22CE381-E960-43F7-87E5-5552651C88FF",
+          "title": "Whodunits",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/whodunits-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.83280",
+              "type": "movie",
+              "name": "Whodunit and Murder Mysteries",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.83280",
+                  "type": "movie",
+                  "name": "Whodunit and Murder Mysteries",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 748,
+                    "url": "https://mdblist.com/lists/netplexflix/whodunit-and-murder-mysteries",
+                    "mediatype": "movie",
+                    "author": "netplexflix"
+                  }
+                }
+              }
+            },
+            {
+              "catalogId": "letterboxd.SYCSs",
+              "type": "all",
+              "name": "cozy mysteries",
+              "genre": "None",
+              "baseType": "all",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "letterboxd.SYCSs",
+                  "type": "all",
+                  "name": "cozy mysteries",
+                  "source": "letterboxd",
+                  "enabled": true,
+                  "showInHome": false,
+                  "metadata": {
+                    "itemCount": 29,
+                    "url": "https://letterboxd.com/iratuayla/list/cozy-mysteries/",
+                    "identifier": "SYCSs",
+                    "isWatchlist": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "collection",
+      "id": "730EB165-0747-4CC4-8C78-C8A2FA5FEEBA",
+      "title": "Awards",
+      "hideTitle": false,
+      "backdropImageUrl": "",
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "TABBED_GRID",
+      "showAllTab": true,
+      "folders": [
+        {
+          "id": "420AD8A0-C7C1-42AF-905C-0D22716BE0EB",
+          "title": "Oscars",
+          "shape": "POSTER",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/oscars-poster.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.84226",
+              "type": "movie",
+              "name": "Oscar Best Picture Nominees (2000 - )",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.84226",
+                  "type": "movie",
+                  "name": "Oscar Best Picture Nominees (2000 - )",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 189,
+                    "url": "https://mdblist.com/lists/alaxkouad/oscar-best-picture-nominees-2000-ykkgpe7d2t",
+                    "mediatype": "movie",
+                    "author": "alaxkouad"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "835AE7F9-95C1-423B-A022-57EEC742C046",
+          "title": "Golden Globes",
+          "shape": "POSTER",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/goldenglobes-poster.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.97536",
+              "type": "movie",
+              "name": "Golden Globe Best Picture Winners",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.97536",
+                  "type": "movie",
+                  "name": "Golden Globe Best Picture Winners",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 163,
+                    "url": "https://mdblist.com/lists/oldmankestis/golden-globe-best-picture-winners",
+                    "author": "oldmankestis"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "3EEC6A99-33B9-4904-9582-494BD073CAEC",
+          "title": "Cannes",
+          "shape": "POSTER",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/iff-poster.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.214224",
+              "type": "movie",
+              "name": "Cannes Palme d'Or Winners",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.214224",
+                  "type": "movie",
+                  "name": "Cannes Palme d'Or Winners",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 104,
+                    "url": "https://mdblist.com/lists/sheeper/cannes-palme-dor-winners",
+                    "author": "sheeper"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "72477A10-9855-4B9D-B1C2-7E421242653B",
+          "title": "Venice",
+          "shape": "POSTER",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/viff-poster.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.146622",
+              "type": "movie",
+              "name": "Venice Film Festival Winners",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.146622",
+                  "type": "movie",
+                  "name": "Venice Film Festival Winners",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 1368,
+                    "url": "https://mdblist.com/lists/atalante421/venice-film-festival-winners",
+                    "mediatype": "movie",
+                    "author": "atalante421"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5547794B-EC2B-4EB1-A279-59DD8B9E68D5",
+          "title": "BAFTA",
+          "shape": "POSTER",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/bafta-poster.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.170815",
+              "type": "movie",
+              "name": "BAFTA: Best Film - All Time",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.170815",
+                  "type": "movie",
+                  "name": "BAFTA: Best Film - All Time",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 80,
+                    "url": "https://mdblist.com/lists/imkaptain/bafta-best-film-all-time",
+                    "mediatype": "movie",
+                    "author": "imkaptain"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "1854F61F-795D-47FD-8A56-263892495F63",
+          "title": "Independent Spirit",
+          "shape": "POSTER",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/fisa-poster.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.198136",
+              "type": "movie",
+              "name": "Independent Spirit Award",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.198136",
+                  "type": "movie",
+                  "name": "Independent Spirit Award",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 41,
+                    "url": "https://mdblist.com/lists/tofunori/independent-spirit-award",
+                    "author": "tofunori"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "collection",
+      "id": "65621217-5993-4561-A2E3-2C273A6F51E9",
+      "title": "Directors",
+      "hideTitle": false,
+      "backdropImageUrl": "",
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "TABBED_GRID",
+      "showAllTab": true,
+      "folders": [
+        {
+          "id": "A3B52D68-9374-483C-9109-5D72908EEF63",
+          "title": "Anderson",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/anderson-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91032",
+              "type": "movie",
+              "name": "Paul Thomas Anderson",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91032",
+                  "type": "movie",
+                  "name": "Paul Thomas Anderson",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 16,
+                    "url": "https://mdblist.com/lists/mawsa/paul-thomas-anderson",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5703512B-45AB-48AD-A6FB-536B8088A118",
+          "title": "Carpenter",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/carpenter-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91035",
+              "type": "movie",
+              "name": "John Carpenter",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91035",
+                  "type": "movie",
+                  "name": "John Carpenter",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 24,
+                    "url": "https://mdblist.com/lists/mawsa/john-carpenter",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "6E35A204-091F-464F-80C1-47D8A3F6767A",
+          "title": "Depalma",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/depalma-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91034",
+              "type": "movie",
+              "name": "Brian De Palma",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91034",
+                  "type": "movie",
+                  "name": "Brian De Palma",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 32,
+                    "url": "https://mdblist.com/lists/mawsa/brian-de-palma",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "E72D41A3-F96C-4B85-8662-B191EDF66809",
+          "title": "Fincher",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/fincher-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91029",
+              "type": "movie",
+              "name": "David Fincher",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91029",
+                  "type": "movie",
+                  "name": "David Fincher",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 16,
+                    "url": "https://mdblist.com/lists/mawsa/david-fincher",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "AA51CAAF-38A7-44FE-ABA2-4AC8F53D5961",
+          "title": "Hitchcock",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/hitchcock-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91031",
+              "type": "movie",
+              "name": "Alfred Hitchcock",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91031",
+                  "type": "movie",
+                  "name": "Alfred Hitchcock",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 58,
+                    "url": "https://mdblist.com/lists/mawsa/alfred-hitchcock",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "9D22228D-ADDC-4D4F-8594-F6DF8DBB5641",
+          "title": "Kubrick",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/kubrick-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91028",
+              "type": "movie",
+              "name": "Stanley Kubrick",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91028",
+                  "type": "movie",
+                  "name": "Stanley Kubrick",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 16,
+                    "url": "https://mdblist.com/lists/mawsa/stanley-kubrick",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "FA56D791-2458-4112-AAF1-42D7836B77FF",
+          "title": "Nolan",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/nolan-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91024",
+              "type": "movie",
+              "name": "Christopher Nolan",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91024",
+                  "type": "movie",
+                  "name": "Christopher Nolan",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 17,
+                    "url": "https://mdblist.com/lists/mawsa/christopher-nolan",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "2DB6594C-1C90-4EFF-B346-DA9A0FD29CA3",
+          "title": "Scorsese",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/scorsese-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91025",
+              "type": "movie",
+              "name": "Martin Scorsese",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91025",
+                  "type": "movie",
+                  "name": "Martin Scorsese",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 47,
+                    "url": "https://mdblist.com/lists/mawsa/martin-scorsese",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "D7F19460-A017-4617-9B7B-4A7CF593EF91",
+          "title": "Spielberg",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/spielberg-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91027",
+              "type": "movie",
+              "name": "Steven Spielberg",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91027",
+                  "type": "movie",
+                  "name": "Steven Spielberg",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 42,
+                    "url": "https://mdblist.com/lists/mawsa/steven-spielberg",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "4C6C3F02-37AB-4C92-970C-DC95C0A78EE7",
+          "title": "Villeneuve",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/villeneuve-wide.png",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mdblist.91033",
+              "type": "movie",
+              "name": "Denis Villeneuve",
+              "genre": "None",
+              "baseType": "movie",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mdblist.91033",
+                  "type": "movie",
+                  "name": "Denis Villeneuve",
+                  "source": "mdblist",
+                  "enabled": true,
+                  "showInHome": false,
+                  "sort": "default",
+                  "metadata": {
+                    "itemCount": 17,
+                    "url": "https://mdblist.com/lists/mawsa/denis-villeneuve",
+                    "mediatype": "movie",
+                    "author": "mawsa"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "collection",
+      "id": "b55aa678-4337-4e7e-9798-0292dd3d7745",
+      "title": "Anime",
+      "hideTitle": false,
+      "backdropImageUrl": "",
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "TABBED_GRID",
+      "showAllTab": true,
+      "folders": [
+        {
+          "id": "d4f76bad-5f8b-4e95-bbc5-f4b09e707336",
+          "title": "Top Anime",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/anime/top-anime-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mal.top_anime",
+              "type": "anime",
+              "name": "MAL Top Anime",
+              "genre": "None",
+              "baseType": "anime",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mal.top_anime",
+                  "type": "anime",
+                  "name": "MAL Top Anime",
+                  "source": "mal",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b16102ff-67b1-4823-96c5-6622c90d35a5",
+          "title": "Airing Now",
+          "shape": "LANDSCAPE",
+          "hideTitle": true,
+          "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/anime/airing-now-wide.jpg",
+          "coverEmoji": "",
+          "focusGifUrl": "",
+          "focusGifEnabled": true,
+          "heroBackdropUrl": "",
+          "heroVideoUrl": "",
+          "titleLogoUrl": "",
+          "sources": [
+            {
+              "catalogId": "mal.airing",
+              "type": "anime",
+              "name": "MAL Airing Now",
+              "genre": "None",
+              "baseType": "anime",
+              "aiometadata": {
+                "version": 1,
+                "catalog": {
+                  "id": "mal.airing",
+                  "type": "anime",
+                  "name": "MAL Airing Now",
+                  "source": "mal",
+                  "enabled": true,
+                  "showInHome": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
