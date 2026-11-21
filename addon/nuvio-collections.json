@@ -11,7 +11,7 @@
       {
         "id": "8ojijd",
         "title": "Netflix",
-        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/netflix.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/streaming-services/netflix.jpg",
         "focusGifUrl": null,
         "focusGifEnabled": true,
         "coverEmoji": null,
@@ -70,7 +70,7 @@
       {
         "id": "1p2pxk",
         "title": "HBO Max",
-        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/hbo-max.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/streaming-services/hbo-max.jpg",
         "focusGifUrl": null,
         "focusGifEnabled": true,
         "coverEmoji": null,
@@ -129,7 +129,7 @@
       {
         "id": "8wu2b2",
         "title": "Disney+",
-        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/disney-plus.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/streaming-services/disney-plus.jpg",
         "focusGifUrl": null,
         "focusGifEnabled": true,
         "coverEmoji": null,

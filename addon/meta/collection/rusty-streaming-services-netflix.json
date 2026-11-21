@@ -1,21 +1,21 @@
 {
   "meta": {
-    "id": "alja-streaming-services-hbo-max",
+    "id": "rusty-streaming-services-netflix",
     "type": "collection",
-    "name": "HBO Max",
+    "name": "Netflix",
     "posterShape": "poster",
-    "poster": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/hbo-max.jpg",
+    "poster": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/streaming-services/netflix.jpg",
     "collection": {
       "sources": [
         {
           "addonId": "tmdb-addon",
           "type": "movie",
-          "catalogId": "streaming.hbm"
+          "catalogId": "streaming.nfx"
         },
         {
           "addonId": "tmdb-addon",
           "type": "series",
-          "catalogId": "streaming.hbm"
+          "catalogId": "streaming.nfx"
         }
       ],
       "layout": "tabs"

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "id": "alja-streaming-services-disney",
+    "id": "rusty-streaming-services-disney",
     "type": "collection",
     "name": "Disney+",
     "posterShape": "poster",
-    "poster": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/disney-plus.jpg",
+    "poster": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/streaming-services/disney-plus.jpg",
     "collection": {
       "sources": [
         {

@@ -1,7 +1,7 @@
 {
-  "id": "com.alja.collections",
+  "id": "com.rusty.collections",
   "version": "1.0.20497",
-  "name": "ALJA Collections",
+  "name": "Rusty Collections",
   "description": "Custom collections with hand-picked covers, filled from TMDB and MDBList catalogs.",
   "resources": [
     "catalog",
@@ -11,7 +11,7 @@
         "collection"
       ],
       "idPrefixes": [
-        "alja-"
+        "rusty-"
       ]
     }
   ],
@@ -19,12 +19,12 @@
     "collection"
   ],
   "idPrefixes": [
-    "alja-"
+    "rusty-"
   ],
   "catalogs": [
     {
       "type": "collection",
-      "id": "alja-col-streaming-services",
+      "id": "rusty-col-streaming-services",
       "name": "Streaming Services",
       "extra": [
         {

@@ -1,10 +1,10 @@
 {
-  "kind": "alja-collections-layout",
+  "kind": "rusty-collections-layout",
   "version": 1,
   "settings": {
-    "name": "ALJA Collections",
-    "id": "com.alja.collections",
-    "base": "https://jferrer-go.github.io/alja-covers/addon"
+    "name": "Rusty Collections",
+    "id": "com.rusty.collections",
+    "base": "https://jferrer-go.github.io/rusty/addon"
   },
   "addons": [
     {
@@ -166,7 +166,7 @@
         {
           "id": "8ojijd",
           "title": "Netflix",
-          "cover": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/netflix.jpg",
+          "cover": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/streaming-services/netflix.jpg",
           "shape": "POSTER",
           "sources": [
             {
@@ -186,7 +186,7 @@
         {
           "id": "1p2pxk",
           "title": "HBO Max",
-          "cover": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/hbo-max.jpg",
+          "cover": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/streaming-services/hbo-max.jpg",
           "shape": "POSTER",
           "sources": [
             {
@@ -206,7 +206,7 @@
         {
           "id": "8wu2b2",
           "title": "Disney+",
-          "cover": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/disney-plus.jpg",
+          "cover": "https://raw.githubusercontent.com/jferrer-go/rusty/main/covers/streaming-services/disney-plus.jpg",
           "shape": "POSTER",
           "sources": [
             {
