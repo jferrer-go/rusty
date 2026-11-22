@@ -101,5 +101,5 @@ def build(W, H, title, out, jp=None):
 
 
 if __name__ == '__main__':
-    print(build(1000, 1500, 'Kaiju', 'covers/collections/titans-poster.jpg', jp='怪獣'))
+    print(build(1000, 1500, 'Kaijū', 'covers/collections/titans-poster.jpg'))
     print(build(1920, 1080, None, 'covers/collections/titans-wide.jpg'))
