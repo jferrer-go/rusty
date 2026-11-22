@@ -79,14 +79,27 @@ def scene(seed):
     return g.fog(c.finish(), seed, .62, .12, 190)
 
 
-def build(W, H, title, out):
+def build(W, H, title, out, jp=None):
     g.W, g.H = W, H
     img = g.tone(scene(11), (150, 150, 150), 21).convert('L').convert('RGB')
     if title:
         img = g.title(img, title)
+    if jp:  # vertical Japanese title down the top-right edge
+        from PIL import ImageFont
+        d = ImageDraw.Draw(img)
+        size = int(min(W, H) * .17)
+        f = ImageFont.truetype('/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc', size, index=0)
+        x = W - size - int(W * .06); y = int(H * .06)
+        sh = Image.new('L', img.size, 0); sd = ImageDraw.Draw(sh)
+        for i, ch in enumerate(jp):
+            sd.text((x + 3, y + 4 + i * size * 1.05), ch, font=f, fill=150)
+        sh = sh.filter(ImageFilter.GaussianBlur(14))
+        img.paste(Image.new('RGB', img.size, (0, 0, 0)), (0, 0), sh)
+        for i, ch in enumerate(jp):
+            d.text((x, y + i * size * 1.05), ch, font=f, fill=(250, 250, 248))
     img.save(out, quality=90); return out
 
 
 if __name__ == '__main__':
-    print(build(1000, 1500, 'Kaiju', 'covers/collections/titans-poster.jpg'))
+    print(build(1000, 1500, 'Kaiju', 'covers/collections/titans-poster.jpg', jp='怪獣'))
     print(build(1920, 1080, None, 'covers/collections/titans-wide.jpg'))
