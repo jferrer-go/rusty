@@ -1,4 +1,4 @@
-"""Titans collection art (poster + wide, greyscale, no title): an original crystal-spined shell surfacing in a harbor.
+"""Titans collection art (poster + wide, greyscale): an original crystal-spined shell surfacing in a harbor.
 Usage: python3 tools/make_titan.py   (writes into covers/collections/)"""
 import math, sys, os
 import numpy as np
@@ -88,5 +88,5 @@ def build(W, H, title, out):
 
 
 if __name__ == '__main__':
-    print(build(1000, 1500, None, 'covers/collections/titans-poster.jpg'))
+    print(build(1000, 1500, 'Gizzard', 'covers/collections/titans-poster.jpg'))
     print(build(1920, 1080, None, 'covers/collections/titans-wide.jpg'))
