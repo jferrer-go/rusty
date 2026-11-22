@@ -1,4 +1,4 @@
-"""Daikaiju / Titans collection art (poster + wide): an original shelled titan wading into a harbor at dawn.
+"""Titans collection art (poster + wide, greyscale, no title): an original crystal-spined shell surfacing in a harbor.
 Usage: python3 tools/make_titan.py   (writes into covers/collections/)"""
 import math, sys, os
 import numpy as np
@@ -12,14 +12,14 @@ def scene(seed):
     c = g.C((205, 95)); r = np.random.default_rng(seed)
     wy = H * .64                                    # waterline
     # low sun behind the titan
-    sx, sy = W * (.4 if H > W else .45), H * .42
+    sx, sy = W * (.58 if H > W else .55), H * .42
     c.glow(sx, sy - min(W, H) * .12, min(W, H) * .22, .22)
     c.ell([sx - 70, sy - 70, sx + 70, sy + 70], 245)
     # distant mountains
     c.ridge(H * .56, 40, seed, 150, .5, bottom=wy + 5)
     # --- the titan: domed shell like a small mountain range ---
     portrait = H > W
-    cx = W * (.33 if portrait else .44); sw = W * .29 if portrait else H * .33       # half-width of shell
+    cx = W * (.5 if portrait else .52); sw = W * .29 if portrait else H * .33       # half-width of shell
     top = wy - sw * 1.05
     V = 12
     shell = [(cx - sw * 1.15, wy + 10)]
@@ -47,25 +47,6 @@ def scene(seed):
             y = wy - math.sin(t * math.pi) ** .7 * sw * (.55 + .2 * math.sin(k)) + r.normal(0, 3)
             pts.append((x, y))
         c.line(pts, 150, 3)
-    # long neck rising on the right, head with swept-back antler horns
-    nx0, ny0 = cx + sw * .85, wy - sw * .35
-    neck = [(nx0 + sw * .9 * t + sw * .25 * math.sin(t * 2.2), ny0 - sw * 1.0 * t ** .8) for t in np.linspace(0, 1, 25)]
-    for i, (x, y) in enumerate(neck):
-        w = sw * (.24 - .13 * i / 25)
-        c.ell([x - w, y - w, x + w, y + w], V)
-    hx, hy = neck[-1]
-    hs = sw * .14
-    c.poly([(hx - hs, hy - hs * .6), (hx + hs * 1.9, hy - hs * .2), (hx + hs * 2.1, hy + hs * .3), (hx - hs * .6, hy + hs * .9)], V)  # head + snout
-    c.ell([hx - hs * 1.1, hy - hs * .9, hx + hs * .8, hy + hs * .9], V)
-    for k, (ang, ln) in enumerate(((2.4, 1.0), (2.0, 1.3), (2.75, .8))):     # branching horns, swept back
-        x, y = hx - hs * .3, hy - hs * .6
-        a = ang
-        for i in range(14):
-            nx_, ny_ = x + math.cos(a) * hs * ln * .25, y - math.sin(a) * hs * ln * .25
-            c.line([(x, y), (nx_, ny_)], V, max(3, 10 - i * .6))
-            if i == 7: c.line([(nx_, ny_), (nx_ + math.cos(a - .9) * hs * .5, ny_ - math.sin(a - .9) * hs * .5)], V, 4)
-            x, y = nx_, ny_; a -= .05
-    c.ell([hx + hs * .5, hy - hs * .25, hx + hs * .8, hy - hs * .05], 250); c.glow(hx + hs * .65, hy - hs * .15, 16, .55)
     # front leg breaking the water
     c.poly([(cx + sw * .55, wy + 10), (cx + sw * .62, wy - sw * .25), (cx + sw * .8, wy - sw * .25), (cx + sw * .85, wy + 10)], V)
     # water + wake + spray
@@ -100,12 +81,12 @@ def scene(seed):
 
 def build(W, H, title, out):
     g.W, g.H = W, H
-    img = g.tone(scene(11), (235, 120, 45), 21)
+    img = g.tone(scene(11), (150, 150, 150), 21).convert('L').convert('RGB')
     if title:
         img = g.title(img, title)
     img.save(out, quality=90); return out
 
 
 if __name__ == '__main__':
-    print(build(1000, 1500, 'Daikaiju', 'covers/collections/titans-poster.jpg'))
+    print(build(1000, 1500, None, 'covers/collections/titans-poster.jpg'))
     print(build(1920, 1080, None, 'covers/collections/titans-wide.jpg'))
